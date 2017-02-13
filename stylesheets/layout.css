@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+
+#rooms-list{
+  margin: 15px 0px;
+}
+
+#rooms-list tr{
+  padding: 8px;
+}
+#rooms-list tr td{
+  height: 24px;
+  line-height: 24px;
+}
+
+
+/*Media*/
+
+video{
+  max-width: 100%;
+  height: 320px;
+}
+
+
+#participants{
+  display: flex;
+  flex-direction: row-reverse;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#participants video{
+  width: 50%;
+  max-width: 50%;
+  flex-basis: 50%;
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*#participants video.me{
+  border: 1px solid red;
+}
+
+#participants video.aswer{
+  border: 1px solid blue;
+}*/
